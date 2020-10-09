@@ -1,0 +1,13 @@
+# Ignore Dataset folder
+data/*
+# except the folder itself
+!data/.gitkeep
+!data/keypoints.txt
+!data/p_W_landmarks.txt
+!data/cart_mask.mat
+
+# Ignore temporary Matlab files
+*.m~
+
+# Ignore Vim stuff
+*.swp
